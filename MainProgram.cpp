@@ -51,7 +51,7 @@ public:
     double getWidth() const { return abs(bottomRight.x - topLeft.x); }  // stub
 
     // TODO 8: const getHeight()
-    double getHeight() const { return abd(bottomRight.y - topLeft.y); }  // stub
+    double getHeight() const { return abs(bottomRight.y - topLeft.y); }  // stub
 
     // TODO 9: const getArea()
     double getArea() const { return getWidth() * getHeight(); }  // stub
